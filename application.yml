@@ -8,7 +8,7 @@ eureka:
     hostname: localhost
 
 microservice:
-  restaurant-service:
+  restaurantservice:
     endpoints:
       endpoint:
         uri: http://RESTAURANT-SERVICE/restaurant/orders/status/
