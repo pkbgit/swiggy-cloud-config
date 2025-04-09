@@ -1,1 +1,6 @@
-
+microservice:
+  restaurant-service:
+    endpoints:
+      endpoint:
+        orderStatusUri: http://RESTAURANT-SERVICE/restaurant/orders/status/
+        allOrdersUri: http://RESTAURANT-SERVICE/restaurant/allOrders
