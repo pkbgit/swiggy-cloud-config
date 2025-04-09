@@ -11,4 +11,4 @@ microservice:
   restaurant-service:
     endpoints:
       endpoint:
-        uri: http://RESTAURANT-SERVICE/restaurant/orders/status/
+        ordeerStatusUri: http://RESTAURANT-SERVICE/restaurant/orders/status/
